@@ -47,7 +47,7 @@ public class Fraction extends Number implements Cloneable {
      * @param n the value to be represented
      */
     public Fraction(int n) {
-        // TODO
+        this(n, 1);
     }
 
     /**
