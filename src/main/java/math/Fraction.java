@@ -279,8 +279,7 @@ public class Fraction extends Number implements Cloneable {
      * @return a hash code value for this object
      */
     public int hashCode() {
-        // TODO
-        return 0;
+        return 7 * numerator + 13 * denominator;
     }
 
     /**
